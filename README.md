@@ -10,6 +10,7 @@ place without having to maintain different bots for different tasks.
 * [Help Message](#help-message-usage)
 * [EBook](#download-ebooks-help-message)
 * [Translate Text](#text-translation-help-message)
+* [Text to Speech](#tts-help-message)
 * [YouTube](#youtube-search-help-message)
 * [QRCode](#qrcode-help-message)
 * [Password and Passphrase generate](#password-and-passphrase-generation-help-message)
@@ -63,7 +64,7 @@ Some are up and working great. Other are in process of being implemented soon.
 
 ## Download EBooks Help Message
 
-> *I can also help you search and download 3 million+ available ebooks* 📚.
+> *I can also search and download 3M+ available ebooks* 📚.
 >
 > *USAGE*:\
 > _Inline feature_
@@ -78,10 +79,10 @@ Some are up and working great. Other are in process of being implemented soon.
 
 ## Text Translation Help Message
 
-> Translate text from one to another language 🔤.
+> *I can also Translate text from one to another language 🔤.*
 >
 > 1️⃣ : Send the original text.\
-> 2️⃣ : Reply to the original text using below commands\.
+> 2️⃣ : Reply to the original text using `/tr` command.
 >
 > *_OR_*
 >
@@ -117,7 +118,7 @@ Some are up and working great. Other are in process of being implemented soon.
 
 ## YouTube Search Help Message
 
-> I will help you search YouTube and get detailed YouTube video, playlist info.
+> *I can also search YouTube and get in-depth details that YouTube video or playlist.*
 >
 > *USAGE*:
 > _Inline feature_
@@ -132,7 +133,7 @@ Some are up and working great. Other are in process of being implemented soon.
 
 ## TTS Help Message
 
-> I can also do Text-to-Speech conversion. Default is english language.
+> *I can also perform Text-to-Speech conversion. Default language is english.*
 >
 > *USAGE*:
 >
@@ -156,13 +157,17 @@ Some are up and working great. Other are in process of being implemented soon.
 
 ## QRCode Help Message
 
-> I can also read and create QRCodes.
+> *I can also read and create QRCodes.*
 >
 >. *USAGE*:
 >
 > `/qr {some text}`: This will generate qr code for provided text.
 >
 > To read qr code or some barcodes, send the photo and reply to it with `/qr` command.
+>
+> _*OR*_
+>
+> Send text and reply to it with `/qr` command.
 >
 > *Example*:
 >
