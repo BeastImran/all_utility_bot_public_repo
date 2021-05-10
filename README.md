@@ -14,6 +14,8 @@ place without having to maintain different bots for different tasks.
 * [YouTube](#youtube-search-help-message)
 * [QRCode](#qrcode-help-message)
 * [Password and Passphrase generate](#password-and-passphrase-generation-help-message)
+* [Inline Share Message](#inline-share-message)
+* [Alternate Commands](#alternate-commands)
 
 ## About Project
 
@@ -32,6 +34,7 @@ Some are up and working great. Other are in process of being implemented soon.
 - [x] Text to speech.
 - [x] Create and read QR-Codes.
 - [x] Generate passwords and passphrases.
+- [x] Generate search links
 - [ ] Generate fake information.
 - [ ] Dictionary (Meaning, Synonyms, antonyms, Examples etc).
 - [ ] Bitly (Shorten Link).
@@ -43,9 +46,10 @@ Some are up and working great. Other are in process of being implemented soon.
 
 ## Help Message (USAGE)
 
-> Send me bellow described commands as needed.
+> Heyyyy 😊,
 >
-> *Basic*:
+> *Use these commands as required*:
+>
 > 👉🏻 `/start`: To start using me\
 > 👉🏻 `/help`: To get this message\
 > 👉🏻 `/help 'feature name'`: To get help text of a specific feature
@@ -55,138 +59,151 @@ Some are up and working great. Other are in process of being implemented soon.
 > *Download ebooks* 📚: `/help book`\
 > *Translate text* 🔤: `/help tr`\
 > *Search YouTube* 📺: `/help yt`\
+> 👉🏻 *Text to Speech* 💬: `/help tts`\
 > *QR Code*: `/help qr`\
-> *Password generation* 🔐: `/help gen`
+> *Password generation* 🔐: `/help gen`\
+> *Search Links* 🔗: `/help links`
 >
-> *Note*:
+> 🗒️ *NOTE* 🗒️:
+>
+> ***Press bellow buttons to know how to use inline features\.***
 >
 > _Many more features are going to be added on demand basis. Just request the feature in [this](https://t.me/joinchat/iBeATONwBpM4NTU9) group, and I will add it to the bot as fast and convenient possible._
+>
+> _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_.
 
 ## Download EBooks Help Message
 
-> *I can also search and download 3M+ available ebooks* 📚.
+> *I can also search and download 3M\+ available ebooks* 📚.
 >
-> *USAGE*:\
-> _Inline feature_
+> 🕹️ *__USAGE__* 🕹️:
 >
-> use `book` or `bk` or just `b` to start searching book in inline mode.
+> 👉🏻 `/book book_name`: To search an ebook.
 >
-> *EXAMPLE*:
+> 👀 *__EXAMPLES__* 👀:
 >
-> `@allutilitybot book War and Peace`\
-> `@allutilitybot bk The Shadow of the Wind`\
-> `@allutilitybot b Python`
+> 👉🏻 `/book something`\
+> 👉🏻 `/book War and Peace`\
+> 👉🏻 `/book The Shadow of the Wind`
+>
+> 🕹️ *__SUPPORTS INLINE MODE ALSO__* 🕹️
+>
+> use `book` or `bk` or just `b` to start searching book in inline mode\.
+>
+> *Inline Mode Example*:
+>
+> `{BOT_USER_NAME} book War and Peace`\
+> `{BOT_USER_NAME} bk The Shadow of the Wind`\
+> `{BOT_USER_NAME} b Python`
+>
+> *USE INLINE MODE FOR BEST AND CONVENIENT EXPERIENCE*
+>
+>_Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_.
 
 ## Text Translation Help Message
 
-> *I can also Translate text from one to another language 🔤.*
+> *I can also perform Text-to-Speech conversion. Default language is english.*
 >
-> 1️⃣ : Send the original text.\
-> 2️⃣ : Reply to the original text using `/tr` command.
+> 🕹️ *__USAGE__* 🕹️:
 >
-> *_OR_*
+> Send some text and reply to it or send the text with `/tts` command itself.
 >
-> Send the command in format `/tr language_code text_to_translate`.
+> If you want any other language, specify it after `/tts` command using one of these [language codes](https://telegra.ph/GTTS-supported-languages-05-10). If invalid language is provided or no language is specified, tts will default to `en` language of speech.
 >
-> *USAGE* 💁:
+> 👉🏻 `/ttssetdefault CODE`: will set the default tts language of your wish. Default is english (en).
 >
-> 👉🏻 `/tr 'language code'`: To translate to required `language`.\
-> 👉🏻 `/tr language_code text_to_translate`: To translate to required `language`.
+> 👀 *__EXAMPLES__* 👀:
 >
-> For Inline:
+> 👉🏻 `/tts Hey, all utility bot is an awesome bot....`\
+> 👉🏻 `/tts ar كل بوت الأدوات هو روبوت رائع ...`\
+> 👉🏻 `/tts ru все служебные боты - классные боты ...`
 >
-> `@allutilitybot language_code text_to_translate`: To translate to required `language` via inline query.
+> To set default language:
 >
-> *EXAMPLE* 📓:
+> 👉🏻 `/ttssetdefault ur`: will set urdu as default language.\
+> 👉🏻 `/ttssetdefault ru`: will set russian as default language.\
+> 👉🏻 `/ttssetdefault hi`: will set hindi as default language.
 >
-> Original text: _Hey, how are you? I am fine. Hope you are doing the same._
->
-> Send the original text and reply `/tr ar`.\
-> This will translate text to arabic.
->
-> *_OR_*
->
-> Send it as: `/tr ar Hey, how are you? I am fine. Hope you are doing the same.`
->
-> *_Supports inline mode too_*
->
-> `@allutilitybot tr ar The only thing real humans want is peace.`
->
-> *LINKS*:
->
-> 👉🏻 Language [codes](https://telegra\.ph/List-of-ISO-639-1-codes-04-10)
+> _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_\.
 
 ## YouTube Search Help Message
 
-> *I can also search YouTube and get in-depth details that YouTube video or playlist.*
+> *I can also search YouTube and get in\-depth details that YouTube video or playlist\.*
 >
-> *USAGE*:
-> _Inline feature_
+> 🕹️ *__USAGE__* 🕹️:
 >
-> use `yt` or `youtube` or `tube` to start searching book in inline mode.
+> *_Inline feature_*
 >
-> *EXAMPLE*:
+> use `yt` or `youtube` or `tube` to start searching YouTube in inline mode.
 >
-> `{BOT_USER_NAME} yt michael jackson`\
-> `{BOT_USER_NAME} yt cat memes`\
-> `{BOT_USER_NAME} yt life hacks`
+> 👀 *__EXAMPLES__* 👀:
+>
+> 👉🏻 `{BOT_USER_NAME} yt michael jackson`\
+> 👉🏻 `{BOT_USER_NAME} yt cat memes`\
+> 👉🏻 `{BOT_USER_NAME} yt life hacks`
+>
+> _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_
 
 ## TTS Help Message
 
 > *I can also perform Text-to-Speech conversion. Default language is english.*
 >
-> *USAGE*:
+> 🕹️ *__USAGE__* 🕹️:
 >
-> Send some text and reply to it with `/tts` command or send the text with `/tts` command itself.
+> Send some text and reply to it or send the text with `/tts` command itself.
 >
-> Default language of speech is english `en`. If you want any other language, specify it after `/tts` command using one of these [language codes](https://telegra\.ph/List-of-ISO-639-1-codes-04-10).
+> If you want any other language, specify it after `/tts` command using one of these [language codes](https://telegra.ph/GTTS-supported-languages-05-10). If invalid language is provided or no language is specified, tts will default to `en` language of speech.
 >
-> `/ttssetdefault CODE`: will set the default tts language of your wish. English (en) is set by default.
+> 👉🏻 `/ttssetdefault CODE`: will set the default tts language of your wish. Default is english (en).
 >
-> *EXAMPLE*:
+> 👀 *__EXAMPLES__* 👀:
 >
-> `/tts Hey, all utility bot is an awesome bot....`\
-> `/tts ar كل بوت الأدوات هو روبوت رائع ...`\
-> `/tts ru все служебные боты - классные боты ...`
+> 👉🏻 `/tts Hey, all utility bot is an awesome bot....`\
+> 👉🏻 `/tts ar كل بوت الأدوات هو روبوت رائع ...`\
+> 👉🏻 `/tts ru все служебные боты - классные боты ...`
 >
 > To set default language:
 >
-> `/ttssetdefault ur`: will set urdu as default language.\
-> `/ttssetdefault ru`: will set russian as default language.\
-> `/ttssetdefault hi`: will set hindi as default language.
+> 👉🏻 `/ttssetdefault ur`: will set urdu as default language.\
+> 👉🏻 `/ttssetdefault ru`: will set russian as default language.\
+> 👉🏻 `/ttssetdefault hi`: will set hindi as default language.
+>
+> _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_.
 
 ## QRCode Help Message
 
 > *I can also read and create QRCodes.*
 >
->. *USAGE*:
+> 🕹️ *__USAGE__* 🕹️:
 >
-> `/qr {some text}`: This will generate qr code for provided text.
->
-> To read qr code or some barcodes, send the photo and reply to it with `/qr` command.
+> 👉🏻 `/qr {some text}`: This will generate qr code for provided text.
 >
 > _*OR*_
 >
-> Send text and reply to it with `/qr` command.
+> 👉🏻 Reply to text with `/qr` command.
 >
-> *Example*:
+> To read qr code or some barcodes, send the photo and reply to it with `/qr` command.
 >
-> `/qr @allutilitybot is an awesome bot`
+> 👀 *__EXAMPLES__* 👀:
 >
-> Send a photo or document of photo to read.
+> 👉🏻 `/qr @allutilitybot is an awesome bot`
+>
+> 👉🏻 _Send a photo or file of an image and reply with `/qr` to read._
+>
+> _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_.
 
 ## Password and Passphrase generation Help Message
 
-> On sending, I will generate some strong passwords and passphrases.
+> *I can also generate some strong `passwords` and `passphrases`.*
 >
-> *USAGE* 💁🏻:
+> 🕹️ *__USAGE__* 🕹️:
 >
 > 👉🏻 `/gen`: To generate 8 characters length password\
 > 👉🏻 `/gen 'number'`: To generate 'number' length password\
 > 👉🏻 `/phrase`: To generate 8 words length passphrases\
 > 👉🏻 `/phrase 'number'`: To generate 'number' length passphrase
 >
-> *EXAMPLES* 📓:
+> 👀 *__EXAMPLES__* 👀:
 >
 > `/gen`\
 > `/gen 20`\
@@ -196,14 +213,87 @@ Some are up and working great. Other are in process of being implemented soon.
 > `/phrase 5`\
 > `/phrase 20`
 >
-> *NOTE* 📑:
+> 🗒️ *NOTE* 🗒️:
 >
-> 👉🏻 4 <= number <= 256
+> 👉🏻 4 <\= number <\= 256
 >
-> passwords include all characters including special ones.
+> 👉🏻 passwords include all characters including special ones.
 >
-> passphrases are collection of english words, randomly chosen to form a sentence or series of words. Passphrases are recommended in use than passwords as they are much easier to remember and makes sense.
+> 👉🏻 [Passphrases](https://en.wikipedia.org/wiki/Passphrase) are recommended in use over passwords as they are much easier to remember and makes sense.
+>
+> _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_.
+
+## Generate Links Help Message
+
+> *I can generate search links of different websites 🕸️ also.*
+>
+> 🕹️ *__USAGE__* 🕹️:
+>
+> 👉🏻 `/gl {text}`:  Google search link.\
+> 👉🏻 `/dl {text}`:  Duckduckgo search link.\
+> 👉🏻 `/wl {text}`:  Wikipedia search link.\
+> 👉🏻 `/el {text}`:  Ecosia search link.\
+> 👉🏻 `/git {text}`:  GitHub Search link.\
+> 👉🏻 `/9 {text}`:  9anime Search link.\
+> 👉🏻 `/all {text}`:  All the above links.
+>
+> 👀 *__EXAMPLES__* 👀:
+>
+> `/gl Telegram api`\
+> `/dl Telegram api`\
+> `/wl Telegram api`\
+> `/el Telegram api`\
+> `/9 Naruto`\
+> `/git Telegram api`\
+> `/all Naruto`
+>
+> _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_.
 
 ## Inline Share Message
 
 > @allutilitybot is a fully featured *ALL IN ONE* bot. Can do most of the things like _*text translations, Text to Speech, download 3M+ ebook, QRCode read and create, password and passphrases generations*_ etc. Use me to know more.
+
+## Alternate commands
+
+#### NORMAL ALTERNATE BOT COMMANDS
+
+> QR_COMMANDS = {'/qr', '/code', '/qrcode', '/bar', '/barcode', '/mk', '/qrr', '/brr', '/read', '/qread', '/bread'}
+>
+> TRANSLATION_COMMANDS = {'/trans', '/tran', '/tr'}
+>
+> TTS_COMMANDS = {'/tts', '/speak', '/speech', '/texttospeech'}
+>
+> BOOK_COMMANDS = {'/book', '/b'}
+>
+> GOOGLE_SEARCH_COMMANDS = {'/gs', '/gl', '/googlesearch', '/search', '/google'}
+>
+> WIKIPEDIA_SEARCH_COMMANDS = {'/ws', '/wl', '/wiki', '/wikipedia', '/wikisearch', '/wsearch'}
+>
+> DUCKDUCKGO_SEARCH_COMMANDS = {'/ds', '/dl', '/duck', '/duckduckgo', '/ducksearch', '/dsearch'}
+>
+> ECOSIA_SEARCH_COMMANDS = {'/es', '/el', '/ecosia'}
+>
+> GITHUB_SEARCH_COMMANDS = {'/gits', '/git', '/ghs', '/github'}
+>
+> ALL_SEARCH_LINKS_COMMANDS = {'/as', '/al', '/all', '/alllinks', '/links'}
+
+#### INlINE ALTERNATE BOT COMMANDS
+
+> INLINE_TRANSLATION_COMMAND = {'tr', 'trans', 'translate'}
+>
+> INLINE_BOOK_COMMAND = {'book', 'books', 'download book', 'search book', 'bk', 'b'}
+>
+> INLINE_YOUTUBE_COMMAND = {'yt', 'youtube', 'ytube', 'tube', 'ytsearch'}
+>
+> INLINE_GOOGLE_SEARCH_COMMANDS = {'gs', 'gl', 'google', 'search', 'googlesearch'}
+>
+> INLINE_WIKIPEDIA_SEARCH_COMMANDS = {'ws', 'wl', 'wiki', 'wikipedia', 'wikisearch', 'wsearch'}
+>
+> INLINE_DUCKDUCKGO_SEARCH_COMMANDS = {'ds', 'dl', 'duck', 'duckduckgo', 'ducksearch', 'dsearch'}
+>
+> INLINE_GITHUB_SEARCH_COMMANDS = {'gits', 'git', 'ghs', 'github'}
+>
+> INLINE_ALL_SEARCH_LINKS_COMMANDS = {'as', 'al', 'all', 'alllinks', 'links'}
+>
+> INLINE_ECOSIA_SEARCH_COMMANDS = {'es', 'el', 'ecosia'}
+> 
