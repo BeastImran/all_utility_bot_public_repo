@@ -3,7 +3,8 @@
 This project is aimed to provide an ultimate bot ever made for general use. Users will be able to do many things at one place without having to
 maintain different bots for different tasks.
 
-# Contributor(s) :heart:
+# Contributors :heart:
+
 [Kelvinamoaba](https://github.com/Kelvinamoaba)
 
 ## Quick Links
@@ -16,6 +17,7 @@ maintain different bots for different tasks.
 * [Text to Speech](#tts-help-message)
 * [Medium Articles](#free-medium-article-help-message)
 * [URL Shortener](#url-shortener-help-message)
+* [Language Detection](#language-detection-help-message)
 * [Dictionary](#dictionary-help-message)
 * [YouTube](#youtube-search-help-message)
 * [Search links](#generate-search-links-help-message)
@@ -76,16 +78,15 @@ Some are up and working great. Other are in process of being implemented soon.
 > 🗒️ *NOTE* 🗒️:
 >
 > _Many more features are going to be added\. Bot is aimed to be the best all in one bot available\._
-> 
+>
 > [Casual chat group](https://t\.me/AllUtilityBotChat)\
 > [Feature request group](https://t\.me/AllUtilityBotFeatureRequestGroup)\
 > [Contributions group](https://t\.me/AllUtilityBotContributionsGroup)
-> 
+>
 > ***Press bellow buttons to know how to use inline features\.***
 >
 > _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_.
 > *Share this bot with your friends and family ❤*
-
 
 ## Download EBooks Help Message
 
@@ -118,67 +119,85 @@ Some are up and working great. Other are in process of being implemented soon.
 ## Text Translation Help Message
 
 > *I can also Translate text from one 🔣 to another language 🔤.*
-> 
+>
 > 🕹️ *__USAGE__* 🕹️:
-> 
+>
 > 👉🏻 `/tr language_code`: Reply to a message to translate to required language.\
 > 👉🏻 `/tr language_code text`.: To translate to required language.
-> 
+>
 > 👀 *__EXAMPLES__* 👀:
-> 
+>
 > Send some text and reply `/tr ar` to translate to arabic.
-> 
+>
 > *_OR_* send with command
-> 
+>
 > `/tr ar Hey, how are you? I am fine. Hope you are doing the same.` to do the same.
-> 
+>
 > 🕹️ *__SUPPORTS INLINE MODE ALSO__* 🕹️
-> 
+>
 > 👉🏻 `@allutilitybot language_code text`: To translate to required language in inline mode itself.
-> 
+>
 > 👀 *__INLINE EXAMPLES__* 👀:
-> 
+>
 > 👉🏻 `@allutilitybot tr ar The only thing real humans want is peace.`
-> 
+>
 > 🗒️ *NOTE* 🗒️:
-> 
+>
 > 👉🏻 Language [codes](https://telegra\.ph/List-of-ISO-639-1-codes-04-10)
-> 
+>
 > _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_.
 
 ## Free Medium Article Help Message
+
 > I can also provide you *free medium articles* which are *usually monetized* 🥳
-> 
+>
 > 🕹️ *__USAGE__* 🕹️:
-> 
+>
 > 👉🏻 `/ml <medium link>`: Gives you free medium link on success
-> 
+>
 > 👉🏻 reply to a *medium link* with `/ml` to get the free link
-> 
+>
 > 👀 *__EXAMPLES__* 👀:
-> 
+>
 > 👉🏻 `/ml https://medium\.com/free-code-camp/learn-to-build-your-first-bot-in-telegram-with-python-4c99526765e4`
-> 
+>
 > _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_.
 
 ## URL Shortener Help Message
 
 > I can also generate short urls using tinyurl.com
-> 
+>
 > 🕹️ *__USAGE__* 🕹️:
-> 
+>
 > 👉🏻 `/s <url>`: Replies you with a tinyurl on success
-> 
+>
 > 👀 *__EXAMPLES__* 👀:
-> 
+>
 > 👉🏻 `/s https://beastimran.medium.com/`
-> 
+>
 > 👉🏻 `/url https://beastimran.medium.com/web-optimization-part-1-d4dc938add8b`
-> 
+>
 > 👉🏻 `/short https://github.com/BeastImran/libgenparser/issues/1`
-> 
+>
 > _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_\.
 
+## Language Detection Help Message
+
+> I can predict the language of text you send.
+>
+> 🕹️ *__USAGE__* 🕹️:
+>
+> 👉🏻 `/dt <text>`: Returns the language of text.
+>
+> 👀 *__EXAMPLES__* 👀:
+>
+> 👉🏻 `/dt Hey! Telegram AllUtilityBot is an awesome bot.`
+>
+> 👉🏻 `/detect عالمی امن ہر ایک کی ضرورت ہے!`
+>
+> 👉🏻 `/lang Привет! эта телеграмма "все полезность боты" потрясающая!`
+>
+> _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_.
 
 ## YouTube Search Help Message
 
@@ -304,13 +323,13 @@ Some are up and working great. Other are in process of being implemented soon.
 > 👉🏻 `/all Naruto`
 >
 > *supports inline mode too.*
-> 
+>
 > 👉🏻 `@allutilitybot gl something`\
 > 👉🏻 `@allutilitybot dl something`\
 > 👉🏻 `@allutilitybot wl something`\
 > 👉🏻 `@allutilitybot 9 naruto`\
 > 👉🏻 `@allutilitybot all something` etc
-> 
+>
 > _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_.
 
 ## Dictionary Help Message
@@ -376,9 +395,9 @@ Some are up and working great. Other are in process of being implemented soon.
 > YOUTUBE_SEARCH_COMMANDS = {'/ytl', '/ytlink', '/youtubelink', '/yl'}
 >
 > ALL_SEARCH_LINKS_COMMANDS = {'/as', '/al', '/all', '/alllinks', '/links'}
-> 
+>
 > DICTIONARY_COMMANDS = {'/def', '/d', '/define', '/meaning', '/mean'}
-> 
+>
 > MEDIUM_ARTICLES_COMMANDS = {'/ml', '/medium', '/mediumlink', '/mediumfree', '/mfree'}
 
 #### INlINE ALTERNATE BOT COMMANDS
@@ -402,7 +421,7 @@ Some are up and working great. Other are in process of being implemented soon.
 > INLINE_NINE_ANIME_SEARCH_LINK_COMMANDS = {'9', '9anime', 'anime'}
 >
 > INLINE_ECOSIA_SEARCH_COMMANDS = {'es', 'el', 'ecosia'}
-> 
+>
 > INLINE_ALL_SEARCH_LINKS_COMMANDS = {'as', 'al', 'all', 'alllinks', 'links'}
 >
 > INLINE_DICTIONARY_COMMANDS = {'def', 'd', 'define', 'meaning', 'mean'}
