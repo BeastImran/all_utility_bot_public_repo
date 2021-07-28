@@ -5,7 +5,7 @@ maintain different bots for different tasks.
 
 # Contributors :heart:
 
-[Kelvinamoaba](https://github.com/Kelvinamoaba)
+[Kelvinamoaba](https://github.com/Kelvinamoaba)(1)
 
 ## Quick Links
 
@@ -45,7 +45,8 @@ Some are up and working great. Other are in process of being implemented soon.
 - [x] Generate search links
 - [x] Dictionary (Meaning, Synonyms, antonyms, Examples etc).
 - [x] Medium Articles (creating free link for premium membership medium articles)
-- [x] URL Shortener (contributor [Kelvinamoaba](https://github.com/Kelvinamoaba))
+- [x] URL Shortener
+- [x] Language Detection
 - [ ] Generate fake information.
 - [ ] IMDB search.
 - [ ] Lyrics of a song.
