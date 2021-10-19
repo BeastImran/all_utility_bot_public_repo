@@ -5,7 +5,7 @@ maintain different bots for different tasks.
 
 # Contributors :heart:
 
-[Kelvinamoaba](https://github.com/Kelvinamoaba)(1)
+[Kelvinamoaba](https://github.com/Kelvinamoaba)
 
 ## Quick Links
 
@@ -18,6 +18,7 @@ maintain different bots for different tasks.
 * [Medium Articles](#free-medium-article-help-message)
 * [URL Shortener](#url-shortener-help-message)
 * [Language Detection](#language-detection-help-message)
+* [Country Time](#country-help-message)
 * [Dictionary](#dictionary-help-message)
 * [YouTube](#youtube-search-help-message)
 * [Search links](#generate-search-links-help-message)
@@ -45,12 +46,11 @@ Some are up and working great. Other are in process of being implemented soon.
 - [x] Generate search links
 - [x] Dictionary (Meaning, Synonyms, antonyms, Examples etc).
 - [x] Medium Articles (creating free link for premium membership medium articles)
-- [x] URL Shortener
-- [x] Language Detection
+- [x] URL Shortener (contributor [Kelvinamoaba](https://github.com/Kelvinamoaba))
+- [x] DateTime of given country.
 - [ ] Generate fake information.
 - [ ] IMDB search.
 - [ ] Lyrics of a song.
-- [ ] DateTime of given country.
 - [ ] GitHub search.
 - [ ] Stack Overflow search.
 
@@ -363,6 +363,25 @@ Some are up and working great. Other are in process of being implemented soon.
 >
 > _Look in [github repo](https://github\.com/BeastImran/all\_utility\_bot\_public\_repo) for alternate commands if you don't want to use these_.
 
+## Country Help Message
+
+> I can help you know current time of any country\.
+> 
+> 🕹️ *__USAGE__* 🕹️:
+> 
+> 👉🏻 `/time <country_code>`: Returns the current time of country\.
+> 
+> 👀 *__EXAMPLES__* 👀:
+> 
+> 👉🏻 `/time in`: Returns the current time of India\.
+> 
+> alternately
+> 
+> 👉🏻 `/t in`: Returns the current time of India\.
+> 
+> [COUNTRY CODES](https://en\.wikipedia\.org/wiki/ISO_3166\-1_alpha\-2)
+
+
 ## Inline Share Message
 
 > @allutilitybot is a fully featured *ALL IN ONE* bot. Can do most of the things like _*text translations, Text to Speech, download 3M+ ebook, QRCode read and create, password and passphrases generations*_ etc. Use me to know more.
@@ -400,6 +419,11 @@ Some are up and working great. Other are in process of being implemented soon.
 > DICTIONARY_COMMANDS = {'/def', '/d', '/define', '/meaning', '/mean'}
 >
 > MEDIUM_ARTICLES_COMMANDS = {'/ml', '/medium', '/mediumlink', '/mediumfree', '/mfree'}
+> 
+> WORLD_TIME_COMMAND = {'/t', '/time'}
+>
+> DONATE_COMMAND = {'/donate', '/donations', '/contribution'}
+
 
 #### INlINE ALTERNATE BOT COMMANDS
 
@@ -426,3 +450,21 @@ Some are up and working great. Other are in process of being implemented soon.
 > INLINE_ALL_SEARCH_LINKS_COMMANDS = {'as', 'al', 'all', 'alllinks', 'links'}
 >
 > INLINE_DICTIONARY_COMMANDS = {'def', 'd', 'define', 'meaning', 'mean'}
+> 
+> INLINE_WORLD_TIME_COMMAND = {'t', 'time'}
+
+# DONATE 
+
+It costs $6 to $8 per month to host this bot. I have been hosting this bot from April 2021, it's been really rewarding as the user base kept on growing. Grown a small yet healthy and still growing community with few really generous contributions.
+
+Now it's time for me to ask for little yet precious donations to keep this project alive. Anything from your side would be appreciated, and I can guarantee that everything will be used wisely and will be recorded and accounted.
+
+These are my financial links:
+
+PayPal (for everyone): https://www.paypal.me/beastimran
+
+UPI (for Indian users): `imsalmanran789@okhdfcbank`
+
+Bitcoin: `3Jjx3UeqZgGbiAVwxMUhSB2mDmyNVZ9oth`
+
+Ethereum (ERC20 deposit address): `0x55071799581029abced8933d2ac906b795751db2`
